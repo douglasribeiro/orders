@@ -1,0 +1,109 @@
+[
+    {
+        "control": "P10X",
+        "dateOrder": null,
+        "product": "produto 5",
+        "price": 1.0,
+        "quantity": 15,
+        "customer": {
+            "id": 1,
+            "name": "Cliente 1"
+        },
+        "valueTotal": 13.5
+    },
+    {
+        "control": "P01",
+        "product": "produto 1",
+        "price": 1.1,
+        "quantity": 6,
+        "customer": {
+            "id": 1,
+            "name": "Cliente 1"
+        }
+    },
+    {
+        "control": "P10",
+        "dateOrder": "30/08/2024",
+        "product": "produto 3",
+        "price": 1.5,
+        "quantity": 11,
+        "customer": {
+            "id": 2,
+            "name": "Cliente 2"
+        }
+    },
+    {
+        "control": "P100",
+        "dateOrder": "30/08/2024",
+        "product": "produto 3",
+        "price": 5.0,
+        "customer": {
+            "id": 2,
+            "name": "Cliente 2"
+        }
+    },
+    {
+        "control": "P101",
+        "product": "produto 3",
+        "price": 5.0,
+        "customer": {
+            "id": 2,
+            "name": "Cliente 2"
+        }
+    },
+    {
+        "control": "P102",
+        "product": "produto 3",
+        "price": 5.75,
+        "customer": {
+            "id": 9
+        }
+    },
+    {
+        "control": "P103",
+        "dateOrder": "30/08/2024",
+        "product": "produto 3",
+        "price": 5.0,
+        "quantity": 3,
+        "customer": {
+            "id": 8
+        }
+    },
+    {
+        "control": "P104",
+        "product": "produto 3",
+        "price": 6.90,
+        "quantity": 8,
+        "customer": {
+            "id": 1
+        }
+    },
+    {
+        "control": "P105",
+        "dateOrder": "28/08/2024",
+        "product": "produto X",
+        "price": 6.0,
+        "customer": {
+            "id": 2
+        }
+    },
+    {
+        "control": "P106",
+        "dateOrder": "01/09/2024",
+        "product": "produto W",
+        "price": 3.95,
+        "quantity": 12,
+        "customer": {
+            "id": 10
+        }
+    },
+    {
+        "control": "P107",
+        "dateOrder": "30/08/2024",
+        "product": "produto 3",
+        "price": 5.0,
+        "customer": {
+            "id": 2
+        }
+    }
+]
