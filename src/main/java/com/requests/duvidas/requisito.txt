@@ -1,0 +1,24 @@
+Criar um serviço que receba pedidos no formato xml e json com 6 campos:
+
+A cada pedido pode haver toda esta estrutura por ate 10 vezes
+    número controle - número aleatório informado pelo cliente.
+    data cadastro (opcional)
+    nome - nome do produto
+    valor - valor monetário unitário produto
+    quantidade (opcional) - quantidade de produtos
+    codigo cliente - identificação numérica do cliente.
+
+portanto seria uma unica tabela com todas as informaçoes com a suas redundancias ou
+poderia ser usadas duas tabelas com o relacionamento de uma para varias onde em uma (master) ficaria
+o numero de controle, data cadastro (ou de pedido) e codigo do cliente
+ e na outra (slave) ficaria o nome do produto, valor e quantidade?
+
+ Critérios aceitação e manipulação do arquivo:
+
+ O arquivo pode conter 1 ou mais pedidos, limitado a 10.
+ Não poderá aceitar um número de controle já cadastrado.
+ Caso a data de cadastro não seja enviada o sistema deve assumir a data atual.
+ Caso a quantidade não seja enviada considerar 1.
+ Caso a quantidade seja maior que 5 aplicar 5% de desconto no valor total, para quantidades a partir de 10 aplicar 10% de desconto no valor total.
+ O sistema deve calcular e gravar o valor total do pedido.
+ Assumir que já existe 10 clientes cadastrados, com códigos de 1 a 10.
